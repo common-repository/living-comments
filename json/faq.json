@@ -1,0 +1,138 @@
+[
+  {
+    "question": "What is Living Comments?",
+    "answer": "Living Comments is a simple yet powerful WordPress plugin that allows users to add AI generated comment and reply automation to their website. It provides features such as automatically posting comments and replies with over 40 tones to choose from! Furthermore, a total of five engagement modes are provided to amplify social interaction on your blog, all backed by a powerful user management system."
+  },
+  {
+    "question": "How does Living Comments work?",
+    "answer": "Living Comments lets you set specific rules and settings. You can choose how to engage your audience, which blog categories to target, and even schedule when comments or replies are made. You can also decide the mix of comments to replies and the tone you want. The plugin then interacts with the Living Comments API and the WordPress comment system to post comments/replies based on the defined rules."
+  },
+  {
+    "question": "How do I get started with Living Comments?",
+    "answer": "Start your journey with Living Comments by downloading and activating our plugin for your WordPress platform. After activation, navigate to the Account Overview tab and hit the 'Get Started' button to initiate your registration. You'll be asked to provide necessary information such as Domain URL, Website Category, and your email to create your new account. After successful registration, you'll receive 15 complimentary comments from us! If you like our service, don't forget to subscribe to one of our monthly plans!"
+  },
+  {
+    "question": "Could you tell me about your monthly plans?",
+    "answer": "No matter the size of your website, Living Comments has a monthly plan that fits your needs. Our offerings include Lite 300, Standard 900, Gold 3000, and Elite 9000 (the trailing numbers indicate the comments/replies allowance you receive each month upon successful payment). Each generated comment or reply costs one credit. Any unused credits? They'll carry forward, even if you decide to cancel your subscription. Simply pick the ideal plan, input your payment information, and you're all set. Every plan we offer has identical features, but opting for a larger plan grants you more monthly credits for generating comments or replies."
+  },
+  {
+    "question": "What are the minimum system requirements for this plugin?",
+    "answer": "To run Living Comments, the minimum requirements are PHP 5.2 and WordPress 3.8. However, for best performance and security, PHP 7 or newer and the latest WordPress version are recommended. These requirements ensure optimal plugin functionality and security."
+  },
+  {
+    "question": "Is it compatible with other WordPress plugins like forums, reviews or directories?",
+    "answer": "Currently, our plugin is solely for generating comments and replies on blog posts and does not extend support to other plugins such as forums, reviews, or directories."
+  },
+  {
+    "question": "How do I change my plan?",
+    "answer": "Look for the Change Plan button under the Account Overview tab. Can't spot it? You likely haven't registered for an account. Before subscribing to a monthly plan, you'll need to sign up for an account. Hover over the Change Plan button to view the different plans we offer. Consider the Lite 300 or Standard 900 for smaller websites, and Gold 3000 or Elite 9000 for larger ones. Rest assured, you can switch plans anytime, and our system will handle the transition seamlessly by cancelling any current subscriptions you have with us."
+  },
+   {
+    "question": "How can I run/pause my campaign?",
+    "answer": "Easily control your campaign's status by clicking the Run/Pause button within the Account Overview tab. When you pause the campaign, there's a chance it will make one last comment or reply before coming to a complete pause, based on the specific circumstances at hand."
+  },
+  {
+    "question": "What are credits and how does it work?",
+    "answer": "To view your remaining credits, navigate to the Account Overview tab and look under the Credits row. Here, you'll see the number of credits you can use to generate comments/replies. Each generated comment or reply will cost you one credit. If you need additional credits, you can easily upgrade by hovering over the Change Plan button within the Account Overview tab and selecting a plan. Your credits will always be available in your account, ready for use whenever you need them. They never expire."
+  },
+   {
+    "question": "Can I generate a comment or reply manually?",
+    "answer": "Due to rate limiting mechanisms in place to prevent excessive API requests, generating comments/replies on demand is not an option."
+  },
+  {
+    "question": "What's causing the inaccuracy in my weekly report chart?",
+    "answer": "Should you come across inconsistencies in the weekly report chart, there could be multiple causes. If your website goes offline, any comments or replies made prior to the outage that haven't been recorded will become visible once the site is back online. Please note, if there's a website or API downtime that stretches to the next day, the comments or replies generated before the outage will show up then, causing potential confusion. Moreover, the charts aren't updated in real-time to save on server resources, so there will be a delay of an hour or more."
+  },
+  {
+    "question": "How are the comments and replies generated?",
+    "answer": "They're generated by the GPT engine from OpenAI, offering a platform for visitors to connect with your website's content. Comments address the main content of your blog post, whereas replies cater to pre-existing comments (both human or plugin generated). The Living Comments API receives data from the plugin, including your blog post permalinks and the related comments/replies. Living Comments facilitates this data to create these AI comments, boosting user interactions while supplementing your main content. We strive for authentic human-like feedback, including occasional imperfections such as typos."
+  },
+  {
+    "question": "What's taking so long to post comments/replies?",
+    "answer": "If you're noticing Living Comments isn't posting comments or replies as you'd expect, a variety of reasons could be responsible. Confirm the plugin's Autopost Schedule settings match your needs. Ensure that your campaign status is Running and not Paused. You can also try pausing and running the campaign again. Confirm that you still have a Remaining Balance in the Account Overview tab. It's worth noting that all comments undergo an internal moderation process. If a comment doesn't pass this screening, it will be discarded, potentially adding more time to the delivery. If you've included an extensive list of words to the Words filter, it might be the reason behind comments not getting posted. We track these occurrences with a \"Blocked:\" counter, providing insights into how many times your specified words have prevented comments from posting. Also, our plugin leverages WP-Cron, a WordPress feature, which isn't always-on like system cron. It's activated during page loads. Thus, infrequent site visits might mean some comments are missed. Beyond this, issues like network disruptions, site outages, or API unavailability can delay posts. Lastly, while you might set a 4-minute posting interval, actual times may vary due to processing, service interruptions, etc. You may receive a comment at 5 minutes or one at 7 minutes."
+  },
+  {
+    "question": "Can I set the Autopost Schedule in seconds or days instead of minutes?",
+    "answer": "To ensure the stability of our service, we've implemented rate limiting. As a result, we only provide the minute setting and don't offer seconds. If you want to post a comment/reply once a day, just set the timer for every 1440 minutes – that's a day's duration. You can choose a time range between 4 minutes and 1440 minutes."
+  },
+  {
+    "question": "How do short, medium, and long word lengths vary from each other?",
+    "answer": "Short, medium, and long word lengths vary in the number of words they generate for comments or replies. Specifically, the Short option will generate comments/replies with approximately 20-30 words in length, the Medium option will generate approximately 40-60 words, and the Long option should generate approximately 70-80 words. It's important to note that these guidelines aren't strict, so the actual number of words may be less or more if needed to convey the point effectively. This flexibility ensures that the content is both concise and comprehensive, depending on the context and requirements."
+  },
+  {
+    "question": "Why is the Comment/Reply Ratio I've configured not being followed?",
+    "answer": "The variation in the Comment/Reply Ratio you've set may be due to the system first prioritizing the generation of comments on blog posts that have no comments. Once each post has at least one comment, replies will begin to be generated, potentially causing a discrepancy from your configured ratio. Additionally, the ratio is randomized to allow for natural variability, meaning it won't be exact at any given moment but will more closely align with your desired ratio over time as more comments and replies are generated."
+  },
+  {
+    "question": "Does this plugin support generating comments in different languages?",
+    "answer": "Yes, our plugin supports generating comments and replies in 35 languages: English, Español (Spanish), 日本語 (Japanese), Deutsch (German), Français (French), Português (Portuguese), Italiano (Italian), Nederlands (Dutch), Русский (Russian), Polski (Polish), Türkçe (Turkish), فارسی (Persian), Tiếng Việt (Vietnamese), Čeština (Czech), Bahasa Indonesia (Indonesian), 中文 (Chinese), Svenska (Swedish), Magyar (Hungarian), Dansk (Danish), עברית (Hebrew), العربية (Arabic), 한국어 (Korean), Română (Romanian), ไทย (Thai), Ελληνικά (Greek), Suomi (Finnish), Slovenčina (Slovak), Norsk (Norwegian), Українська (Ukrainian), Български (Bulgarian), Català (Catalan), Hrvatski (Croatian), Lietuvių (Lithuanian), Eesti (Estonian), Slovenščina (Slovenian). This feature enables you to engage with your audience in their native language, enhancing the user experience on your blog."
+  },
+  {
+    "question": "What is 'Allow Emojis' and 'Reply to Users'?",
+    "answer": "By default, the 'Allow Emojis' and 'Reply to Users' features in Living Comments are activated, but you have the option to toggle them off if desired in the Comment/Reply tab. Enabling the 'Allow Emojis' option adds a playful touch to your automated comments or replies, incorporating emojis with a 5% chance. This can make the interactions seem more natural and engaging. On the other hand, the 'Reply to Users' feature allows the plugin to interact directly with real users on your website by replying to their comments. This feature enhances user engagement and fosters a sense of community on your blog or website."
+  },
+  {
+    "question": "How can we adjust the Autopost Schedule to give it a more natural feel, rather than seeming completely automated?",
+    "answer": "You can randomize the Autopost Schedule by setting a time range, say every 4 to 8 minutes. The plugin will then select a random interval from this range each time a new comment or reply is generated. For a specific interval, you can set both values to match, like 4 to 4 minutes."
+  },
+  {
+    "question": "What is the reason behind the comment or reply not being generated in the selected tone?",
+    "answer": "The reason behind the comment or reply not aligning with the selected tone may be due to the intrinsic complexity of language and emotions. Living Comments uses advanced AI language models that can mimic human-like text generation, but they don't have personal preferences or emotions like humans. Here's why this may happen:\n\n1. Language Complexity: Human language is rich and multifaceted. Tone can be subtly influenced by context, word choice, and even punctuation. AI models strive to capture these nuances, but it's a challenging task.\n\n2. Lack of Personal Emotion: The AI doesn't have feelings or personal biases. It generates text based on patterns found in the data it was trained on, so its understanding of tone may not always align with human expectations.\n\n3. Data-Driven Responses: AI models base their responses on vast amounts of data. While specific tone instructions can be provided, variations in the generated text might still occur due to the inherent limitations of the model in emulating human-like understanding of tone.\n\n4. Human Perceptions Differ: What one person perceives as a particular tone might differ from someone else's perception. Since the AI doesn't have a universal reference for tone, it may not always match every individual's expectations.\n\nIn summary, while Living Comments strives to provide comments or replies in the desired tone, there may be instances where the output doesn't perfectly align with expectations. It's a reflection of the current technological constraints and the intricate nature of human language and emotions, rather than a flaw in the system."
+  },
+   {
+    "question": "What causes the presence of typos or misspellings in some of my comments?",
+    "answer": "Our plugin is designed with the aim of simulating human behavior to create comments and replies that appear as natural as possible. One of the techniques it uses to achieve this is by intentionally introducing typos and misspelled words into the generated text for a tiny fraction of comments/replies. By adding these slight errors, the plugin emulates the imperfections commonly found in human writing, enhancing the overall authenticity of the responses."
+  },
+   {
+    "question": "How can I delete a generated comment or reply?",
+    "answer": "To delete a comment or reply, navigate to the Comment History tab. Here, you'll find the most recent 10 comments/replies. To delete, simply click on the trash bin icon located in the Action column on the right, and confirm your action. If you wish to review more than the latest 10, proceed to the Comments section in WordPress."
+  },
+  {
+    "question": "Which engagement mode should I select?",
+    "answer": "Choosing the best engagement mode from Living Comments hinges on your goals and how automated you want your comments to be. Want swift feedback on recent blog posts and comments? Opt for Timely or Natural (default setting). On the other hand, for those with varied needs or less frequent content updates on their blog, Balanced, Recycle, or Comprehensive are recommended."
+  },
+  {
+    "question": "How often should I set the Autopost Schedule?",
+    "answer": "How often you should auto-post comments/replies is based on your particular needs. Striking a balance between engaging your real users routinely and not overusing automated engagements is key. Take into account the amount of comments from users, the kind of site you run, and your current number of blog posts when deciding how frequently to post."
+  },
+  {
+    "question": "Is there a way to schedule autopost with intervals less than 4 minutes?",
+    "answer": "In order to manage the substantial influx of API requests we receive daily, we have implemented a rate limit of 4 minutes. This measure is designed to safeguard our server from overloading while ensuring smooth operations for all clients and aligns with our largest Elite 9000 plan. With this 4-minute limit in place, you'll be able to make a generous 10,800 comments per month which would deplete the Elite 9000 balance before the month ends."
+  },
+  {
+  "question": "Why can't I add dummy users?",
+  "answer": "Before adding a dummy user with our plugin, you must approve them to ensure no real users are added accidentally. Follow these steps within the WordPress Admin Panel:\n\n1. Navigate to the 'Users' section.\n2. Click 'Add New' to create a new user or edit an existing user that you have already created.\n3. When adding or editing a user, fill out all the necessary details of the user and scroll down to the 'Living Comments Dummy User Approval' section. \n4.Tick the checkbox next to 'Approve for Dummy Users.' then click 'Add New User' or 'Update User'. \n5. Navigate to User Management of the Living Comments plugin settings and add their username(s) separated by a comma in the input box under the Add Dummy Users section.\n6. Click Add Users button and wait for our plugin to check and add the newly approved users.\n7. Carefully verify all details to make sure everything is in order before clicking 'Save All Changes'.\n\nThis process helps maintain integrity and avoid unintentional inclusion of real users in the plugin's operations."
+  },
+  {
+    "question": "How do I add guest names and dummy users?",
+    "answer": "Living Comments provides the functionality to add guest names and dummy users for comment and reply interactions. By default, the plugin will generate a new pseudonymous name when a comment or reply is generated but you have the option to assign custom names and avatars to these users through dummy users. Such a feature offers a way to mimic natural user interactions, improving the overall website experience. Create user accounts manually via your WordPress dashboard by navigating to Users > Add New to form these accounts. Input the necessary details for the specific user. Within the user's profile, you'll find a new section labeled \"Living Comments Dummy User Approval.\" Here, you can approve or disapprove the user for use within the Living Comments plugin by checking the box. After setting up these placeholder accounts, populate the User Management section of Living Comments with their usernames in the Add Dummy Users input box. Confirm your choices before clicking on Save All Settings."
+  },
+  {
+    "question": "Why did my subscription renewal failed?",
+    "answer": "Should you encounter an exclamation mark on the Billing tab, it implies that your subscription renewal charge has failed. Fret not! Our system will make three more attempts to charge your payment, every 5 days from the renewal date. If all attempts are unsuccessful, your subscription will be canceled. To avoid any interruptions, you can create a new subscription using a different payment method on the Account Overview tab and our system will automatically cancel your old subscription."
+  },
+  {
+    "question": "How can I change my payment method?",
+    "answer": "To update your payment method, simply subscribe to your desired plan—whether it's the same one or a different one—and opt for Choose another way to pay. We provide both PayPal and Credit Card payment options. Your previous subscription will be automatically terminated once a new one is established. Our online payments are processed via PayPal."
+  },
+  {
+    "question": "How can I cancel my monthly subscription?",
+    "answer": "To cancel your monthly subscription for Living Comments, go to the Billing tab and select the Cancel Subscription option. This ensures you won't be charged for upcoming payments. If you'd prefer to switch plans, simply head over to the Account Overview tab to choose a different one and your current plan will be canceled automatically by our system."
+  },
+  {
+    "question": "Can I request a refund?",
+    "answer": "We aim to provide a smooth experience for our users. That's why we offer flexible monthly plans with a simple cancellation option right within the dashboard. All sales of the Plugin are final. Due to the incurrence of non-recoverable costs related to third-party API requests that facilitate the generation of comments and replies on your WordPress blog, we are unable to offer refunds for any reason, including but not limited to dissatisfaction with the Plugin's features or capabilities. We strongly encourage you to take advantage of the 15 comments included in the free plan to make sure our plugin meets your needs before making a purchase."
+  },
+  {
+    "question": "Are the generated comments and replies subjected to moderation?",
+    "answer": "Yes, the generated comments and replies by Living Comments utilizes OpenAI's moderation to ensure compliance with its usage policies. It will check for violations and take appropriate action such as regenerating the comment before delivery or skipping it altogether. The moderation classifies content into categories like hate speech, harassment, self-harm, sexual content, and violence. We also provide an additional filter to screen out words you deem inappropriate or redundant. However, be aware that your available balance will be deducted for any comment or reply blocked by the use of this feature. Find this customization option at the bottom of the Comment/Reply tab."
+  },
+  {
+    "question": "Is there data retention?",
+    "answer": "By default, the Living Comments plugin sends data such as excerpts of your blog posts and comments from users to the Living Comments API. This data is then utilized to make requests to third-party API models from OpenAI for generating author names, comments, and replies on your blog. This data is retained on OpenAI's system for up to 30 days, unless a legal obligation requires longer retention. To improve our services, Living Comments will maintain a short-term log of this data. Additionally, comments you flag in the Comment History tab will be logged temporarily and deleted upon completion of our review. When you sign up for an account, we store some information about you such as your email, website domain, country and website category. If you wish to have your data deleted permanently from our server, you can contact us on our official website under the Accounts department."
+  },
+  {
+    "question": "Where can I get support for this plugin?",
+    "answer": "If you have any questions about your account or the plugin while using Living Comments, please get in touch with our support team. You can find our contact info on the Living Comments official website. Be sure to give specifics about your issue or question, so the team can help you effectively."
+  }
+]

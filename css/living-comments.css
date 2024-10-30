@@ -1,0 +1,371 @@
+html {
+    background-color: #f1f1f1;
+}
+
+.table.is-striped tbody tr:nth-child(even) {
+    background-color: hsl(60, 40%, 94%) !important;
+}
+
+.expand-collapse-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.expand-collapse-link:hover {
+    color: #0056b3;
+}
+
+.expand-collapse-link i {
+    margin-left: 8px;
+}
+
+#faq-table {
+    table-layout: fixed;
+}
+
+#faq-table th {
+    width: 50%;
+}
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.control-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.control-link:hover {
+    background-color: #CCCCCC;
+}
+
+.is-gold {
+    background-color: #fd922a !important;
+    color: #fff !important;
+}
+
+.hero.is-gold,
+.hero.is-gold p {
+    color: white !important;
+}
+
+.hero.is-gold .title.d-flex.align-items-center.mb-5 span.mr-6 {
+    color: white !important;
+}
+
+div.living-comments-plugin.wrap input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #767676;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #0075ff;
+    border: 1px solid #0075ff;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+}
+
+input[type="checkbox"]:checked:hover {
+    background-color: #005cc8;
+    border-color: #005cc8;
+}
+
+.multiselect {
+    width: 300px;
+    overflow: auto;
+}
+
+.multiselect label {
+    display: block;
+}
+
+.multiselect-tones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.multiselect-tones label {
+    display: block;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.multiselect-tones label:nth-child(3n) {
+    margin-right: 0;
+}
+
+.plan-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.plan-item {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+}
+
+.plan-item.selected-plan.Timely,
+.plan-item.selected-plan.Natural,
+.plan-item.selected-plan.Balanced,
+.plan-item.selected-plan.Recycle,
+.plan-item.selected-plan.Comprehensive {
+    color: #fff;
+}
+
+.plan-item.selected-plan.Timely {
+    background-color: #e74c3c;
+}
+
+.plan-item.selected-plan.Natural {
+    background-color: #00d1b2;
+}
+
+.plan-item.selected-plan.Balanced {
+    background-color: #007bff;
+}
+
+.plan-item.selected-plan.Recycle {
+    background-color: #fd932a;
+}
+
+.plan-item.selected-plan.Comprehensive {
+    background-color: #778899;
+}
+
+.plan-item:hover {
+    background-color: #696969;
+    color: #fff;
+}
+
+.dropdown-container {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-text, 
+.dropdown-post-comment {
+    margin: 0 5px;
+}
+
+.checkbox-toggle {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 24px;
+    background-color: #e6e6e6;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.checkbox-toggle::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: #aaa;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+input[type="checkbox"].switch:checked + .checkbox-toggle {
+    background-color: #0075ff;
+}
+
+input[type="checkbox"].switch:checked + .checkbox-toggle::before {
+    transform: translateX(26px);
+    background-color: #fff;
+}
+
+.select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+}
+
+#livcom_plugin_guest_names_container,
+#livcom_plugin_dummy_users_container,
+#livcom_plugin_custom_word_input {
+    max-width: 90vw;
+}
+
+.livcom_plugin_custom_word, 
+.livcom_plugin_guest_name, 
+.livcom_plugin_dummy_user {
+    display: inline-block;
+    margin: 5px;
+    cursor: default;
+}
+
+[data-braintree-id="methods-container"] {
+    padding-right: 30px;
+}
+
+#chart-container {
+    height: 22vh;
+}
+
+.faq-question.is-flex:hover {
+    cursor: pointer;
+}
+
+.faq-chevron i {
+    transition: transform 0.3s ease-in-out;
+}
+
+.has-text-custom-medium {
+    color: #fd922a;
+}
+
+#mediumLengthButton {
+    background-color: #fd922a;
+    border-color: transparent;
+    color: #fff;
+}
+
+#mediumLengthButton:hover {
+    background-color: #fd922a;
+    border-color: transparent;
+}
+
+#mediumLengthButton.is-active,
+#mediumLengthButton:active {
+    background-color: #fd922a;
+    border-color: transparent;
+}
+
+#mediumLengthButton.is-light {
+    background-color: #ffebd7;
+    border-color: transparent;
+    color: #fd922a;
+}
+
+#mediumLengthButton.is-light:hover {
+    background-color: #ffebd7;
+    border-color: transparent;
+}
+
+#mediumLengthButton.is-light.is-active,
+#mediumLengthButton.is-light:active {
+    background-color: #ffebd7;
+    border-color: transparent;
+}
+
+button#unhappyReported, 
+button#unhappyReported:hover {
+    cursor: default !important;
+}
+
+.loading-dots span {
+    opacity: 0;
+    font-size: 20px;
+    animation: dotPop 3s infinite;
+}
+
+.loading-dots span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.loading-dots span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes dotPop {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 80% {
+        opacity: 1;
+    }
+    81%, 100% {
+        opacity: 0;
+    }
+}
+
+.living-comments-plugin.wrap .button.is-primary[disabled], .living-comments-plugin.wrap fieldset[disabled] .button.is-primary {
+    background-color: #00d1b2 !important;
+    border-color: #00d1b2 !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.countdown-container {
+    position: relative;
+    text-align: center;
+}
+
+#countdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 1.2em;
+}
+
+#icon-spinner.la-spin {
+    animation-duration: 3s;
+}
+
+/* Status Indicator Styles */
+.status-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-indicator.red {
+    background-color: red;
+}
+
+.status-indicator.green {
+    background-color: green;
+}
+
+.status-indicator.orange {
+    background-color: orange;
+}
+
+.status-indicator.gray {
+    background-color: #5f6368;
+}
